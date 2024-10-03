@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-02T22:55:47 EDT" name="Default suite" finished-at="2024-10-02T22:55:51 EDT" duration-ms="3305">
+    <groups>
+    </groups>
+    <test started-at="2024-10-02T22:55:47 EDT" name="Default test" finished-at="2024-10-02T22:55:51 EDT" duration-ms="3305">
+      <class name="Sourcedemo.DynamicWebTableTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Sourcedemo.DynamicWebTableTest@209da20d]" started-at="2024-10-02T22:55:47 EDT" name="openBrowser" finished-at="2024-10-02T22:55:49 EDT" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="tripDetails()[pri:0, instance:Sourcedemo.DynamicWebTableTest@209da20d]" started-at="2024-10-02T22:55:49 EDT" name="tripDetails" finished-at="2024-10-02T22:55:51 EDT" duration-ms="2041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tripDetails -->
+      </class> <!-- Sourcedemo.DynamicWebTableTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
