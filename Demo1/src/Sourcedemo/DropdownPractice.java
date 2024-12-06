@@ -1,5 +1,7 @@
 package Sourcedemo;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,8 +21,17 @@ public class DropdownPractice {
 		driver.manage().window().maximize();
 		//SingleSelection dropdown
 		 WebElement courseNameElement=driver.findElement(By.id("course"));
+		 Thread.sleep(5000);
          Select sss=new Select(courseNameElement);
-       sss.selectByIndex(2);
+        List<WebElement>options = sss.getOptions();
+        for(WebElement opt:options) {
+        	if(opt.getText().equals("Python")) {
+        		opt.click();
+        		break;
+        	}
+        	
+        }
+      /* sss.selectByIndex(2);
          Thread.sleep(5000);
         sss.selectByValue("python");
          Thread.sleep(6000);
